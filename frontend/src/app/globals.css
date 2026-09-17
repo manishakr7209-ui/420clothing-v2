@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --brand-green:   #c8f500;
+  --brand-black:   #080808;
+  --brand-dark:    #0e0e0e;
+  --brand-surface: #111111;
+  --brand-border:  #1e1e1e;
+  --brand-text:    #e0e0e0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #080808;
+  color: #e0e0e0;
+  font-family: 'Barlow', sans-serif;
+  min-height: 100vh;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0e0e0e; }
+::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #c8f500; }
+
+/* Range input */
+input[type='range'] { accent-color: #c8f500; }
+
+/* Selection */
+::selection { background: #c8f500; color: #000; }
